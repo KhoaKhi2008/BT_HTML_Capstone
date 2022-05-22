@@ -834,8 +834,6 @@ body {
   z-index: 10;
   margin: 0;
   padding: 0;
+  display: block;
 }
 
-.call-back .container .txt{
-  z-index: 11;
-}
