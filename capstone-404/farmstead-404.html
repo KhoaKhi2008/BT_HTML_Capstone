@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page</title>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./farmstead-404.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <h1>
+              <a href="https://wp.w3layouts.com/farmstead/">
+                <span>Farmstead</span>
+                <i class="fa-solid fa-leaf"></i>
+              </a>
+            </h1>
+          </div>
+          <div class="nav">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i style="color: #FFFFFF" class="fa-regular fa-moon" onclick="nightMode()" id="night-mode"></i>
+            <i style="color: #FFFFFF; display: none;" class="fa-solid fa-sun" onclick="dayMode()" id="day-mode"></i>
+            <div class="dropdown">
+              <i id="show-menu" style="color: #FFFFFF" class="fa-solid fa-bars bar-menu" onclick="barMenu()"></i>
+              <i id="hide-menu" style="color: #000000; display: none;" class="fa-solid fa-bars bar-menu" onclick="hideMenu()"></i>
+              <div id="dropdown-child">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">SERVICES</a>
+                <a href="">BLOG POSTS</a>
+                <a href="">404 PAGE</a>
+                <a href="">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="main">
+          <p class="icon-404">
+            <span>4</span>
+            <i class="fa-solid fa-spinner"></i>
+            <span>4</span>
+          </p>
+          <p class="oops">Oops! That page can't be found.</p>
+          <div class="search-keyword">
+            <input type="text" placeholder="Search your keywords..">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a class="back" href="https://wp.w3layouts.com/farmstead/">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Back to Home</span>
+          </a>
+        </div>
+        </div>
+      </div>
+    </header>
+    <footer class="footer">
+      <div class="footer-part">
+        <h3>FIND US</h3>
+        <div class="text">
+          <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+          <p>
+            <span>Phone:</span>
+            <a href="tel:+1223456790"> +12 23456790</a>
+          </p>
+          <p>
+            <span>Email:</span>
+            <a href="mailto:info@example.com"> info@example.com</a>
+          </p>
+          <p>
+            <span>Fax:</span>
+            <a href="tel:+1136721890"> + 11 367 21890</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-part">
+          <div class="logo">
+            <h1>
+                <a href="https://wp.w3layouts.com/farmstead/">
+                  <span>Farmstead</span>
+                  <i class="fa-solid fa-leaf"></i>
+                </a>
+              </h1>
+          </div>
+          <p style="color: #707070;">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui</p>
+          <p class="copyright">
+            <span style="color: #707070;">© 2022 Farmstead. All Rights Reserved | WordPress Theme by</span>
+            <a href="https://w3layouts.com/">W3Layouts.</a>
+          </p>
+        </div>
+      <div class="footer-part">
+        <h3>NEWSLETTER</h3>
+        <p style="color: #707070;">Subscribe to our mailing list and get updates to your email inbox.</p>
+        <div class="search-form">
+          <input type="email" placeholder="Email Address" />
+          <button type="submit">
+            <i class="fa-solid fa-paper-plane"></i>          
+          </button>
+        </div>
+        <div class="contact">
+          <a href="https://www.facebook.com/w3layouts/">
+            <i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://in.linkedin.com/company/w3layouts">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/W3layouts">
+            <i class="fa-brands fa-twitter"></i></a>
+          <a href="https://w3layouts.com/tag/email-templates/">
+          <i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="https://w3layouts.com/">
+          <i class="fa-solid fa-cat"></i></a>
+        </div>
+      </div>
+    </footer>
+    <div class="navigation">
+      <div class="nav-upper">
+      <a href="">
+        <i class="fa-solid fa-angles-right"></i>
+      </a>
+      <a href="">
+        <i class="fa-solid fa-arrow-left"></i>
+        <p style="background-color: #0D1326;">Back</p>
+      </a>
+      <a href="">
+        <i class="fa-solid fa-download"></i>
+        <p style="background-color: #0D1326;">Download</p>
+      </a>
+      <a href="">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p style="background-color: #0D1326;">Buy</p>
+      </a>
+    </div>
+    <div class="nav-below">
+      <i class="fa-solid fa-turn-up"></i>
+    </div>
+    </div>
+    <script src="./farmstead-404.js"></script>
+<body>
+    
+</body>
+</html>

@@ -253,7 +253,8 @@ body {
   align-items: center;
 }
 
-.what-we-do .container h2, .what-we-do .container h3,
+.what-we-do .container h2,
+.what-we-do .container h3,
 .what-we-do .container .text .col-left,
 .what-we-do .container .text .col-right {
   padding-left: 100px;
@@ -571,13 +572,13 @@ body {
   font-weight: bold;
 }
 
-.footer .container .col-mid .w3layout{
+.footer .container .col-mid .w3layout {
   text-decoration: none;
   color: #009f4d;
   transition: all 0.5s;
 }
 
-.footer .container .col-mid .w3layout:hover{
+.footer .container .col-mid .w3layout:hover {
   color: #fb811e;
 }
 
@@ -650,9 +651,8 @@ body {
 .footer .container .navbar i:hover {
   color: #fb811e;
   background-color: #f9ebc0;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1)
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
-
 
 .back-to-top {
   background-color: #009f4d;
@@ -703,6 +703,11 @@ body {
   overflow: hidden;
 }
 
+.carousel-ser .container span{
+  font-weight: 100;
+  color: rgb(0, 0, 0, 0.4);
+}
+
 .carousel-ser .container .col-right {
   display: block;
   width: 60%;
@@ -718,14 +723,13 @@ body {
 }
 
 .carousel-ser .back-to-home {
-  position: relative;
   transition: all 0.5s;
   text-decoration: none;
-  color: grey;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
 }
 
 .carousel-ser .back-to-home:hover {
-  position: absolute;
   color: #fb811e;
 }
 
@@ -890,7 +894,7 @@ body {
   background-color: green;
 }
 
-.call-back{
+.call-back {
   display: block;
   height: 500px;
   background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/bg2.jpg);
@@ -917,12 +921,12 @@ body {
   position: absolute;
 }
 
-.statistic-ser{
+.statistic-ser {
   display: block;
   margin-bottom: 50px;
 }
 
-.statistic-ser .container{
+.statistic-ser .container {
   padding: 48px 120px;
   margin: 0;
   max-width: 100%;
@@ -931,13 +935,13 @@ body {
   justify-content: flex-start;
 }
 
-.statistic-ser .container .col{
+.statistic-ser .container .col {
   width: 25%;
   text-align: center;
   padding: 0;
 }
 
-.statistic-ser .container .col i{
+.statistic-ser .container .col i {
   font-size: 30px;
   width: 80px;
   height: 80px;
@@ -948,15 +952,16 @@ body {
   margin-bottom: 20px;
 }
 
-.naturally-ser .container{
+.naturally-ser .container {
   padding: 20px 50px;
 }
 
-.naturally-ser .container h1, .statistic-ser .container .col h1{
+.naturally-ser .container h1,
+.statistic-ser .container .col h1 {
   font-weight: bold;
 }
 
-.naturally-ser .container img{
+.naturally-ser .container img {
   border-radius: 15px;
 }
 
@@ -970,6 +975,56 @@ body {
   font-weight: bold;
 }
 
-.team-about .col-about{
-  
+.team-about .menu .row .col {
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.team-about .menu .row .col img {
+  display: block;
+  border-radius: 10px;
+}
+
+.team-about .menu .row .col img:hover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.team-about .menu .row .col .col-bottom {
+  display: block;
+  text-align: center;
+}
+
+.provide{
+  display: block;
+  max-width: 100%;
+}
+
+.provide .container{
+  margin-top: 100px;
+  width: 100%;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.provide .container .reach-video{
+  display: inline-block;
+  position: relative;
+  background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/video.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.provide .container .reach-video i{
+  font-size: 20px;
+  position: relative;
+  color: #000000;
+  z-index: 10;
 }
